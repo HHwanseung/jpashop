@@ -7,6 +7,7 @@ public class Album extends Item{
 
     private String artist;
     private String etc;
+    private String releaseDate;
 
     public String getArtist() {
         return artist;

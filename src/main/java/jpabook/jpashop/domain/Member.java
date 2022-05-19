@@ -14,7 +14,6 @@ public class Member extends BaseEntity{
     private String city;
     private String street;
     private String zipcode;
-    private String sex;
 
     @OneToMany(mappedBy = "member")
     private List<Order> orders = new ArrayList<>();
