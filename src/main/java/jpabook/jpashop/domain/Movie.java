@@ -7,6 +7,7 @@ public class Movie extends Item {
 
     private String director;
     private String actor;
+    private String rating;
 
     public String getDirector() {
         return director;
